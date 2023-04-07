@@ -1,4 +1,4 @@
-package com.example.paymentmanagement.model;
+package com.example.paygate.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

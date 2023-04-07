@@ -1,7 +1,6 @@
-package com.example.paymentmanagement.controller;
+package com.example.paygate.controller;
 
-import com.example.paymentmanagement.model.Payment;
-import org.springframework.boot.Banner;
+import com.example.paygate.model.Payment;
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
