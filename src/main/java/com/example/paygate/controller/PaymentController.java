@@ -48,8 +48,8 @@ public class PaymentController {
         String reference = "RC-1234";
         String amount = "10000000";
         String currency = "ZAR";
-        String notifyUrl = "phakamanicreche.azurewebsites.net/transaction/notify";
-        String returnUrl = "phakamanicreche.azurewebsites.net/transaction/return";
+        String notifyUrl = "https://phakamanicreche.azurewebsites.net/transaction/notify";
+        String returnUrl = "https://phakamanicreche.azurewebsites.net/transaction/return";
         String transactionDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         String locale = "en-za";
         String country = "ZAF";
