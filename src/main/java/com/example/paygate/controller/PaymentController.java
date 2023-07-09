@@ -53,7 +53,7 @@ public class PaymentController {
         String transactionDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         String locale = "en-za";
         String country = "ZAF";
-        String email = "simphiwemthanti76@gmail.com";
+        String email = "simphiwe@gmail.com";
 
         String formFields = payGateId + reference + amount + currency
                 + returnUrl  + transactionDate + locale + country + email + notifyUrl;
